@@ -3,8 +3,8 @@ from typing import List, Optional
 from common.db.base_dal import BaseDAL
 from db.models.comment import Comment
 from db.models.like import Like
-from db.models.user import User
-from db.models.video_item import VideoItem
+from db.models.users.user import User
+from db.models.videos.video_details import VideoItem
 from db.models.view import View
 
 

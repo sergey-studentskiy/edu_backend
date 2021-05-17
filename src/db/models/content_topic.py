@@ -1,10 +1,7 @@
 from sqlalchemy import Column, String, Integer, Text, ForeignKey
-from sqlalchemy.orm import relationship
 
 from db.models import Base
 from db.models.create_updated_on_fields import CreateUpdateOnFields
-from .topic_item import TopicItem
-from .video_item import VideoItem
 
 
 class ContentTopic(Base, CreateUpdateOnFields):

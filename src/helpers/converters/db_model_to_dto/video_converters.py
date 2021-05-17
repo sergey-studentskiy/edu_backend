@@ -1,5 +1,5 @@
 from db.models.comment import Comment
-from db.models.video_item import VideoItem
+from db.models.videos.video_details import VideoItem
 from dtos.comment_dto import CommentDTO
 from dtos.video_item_dto import VideoItemDTO
 

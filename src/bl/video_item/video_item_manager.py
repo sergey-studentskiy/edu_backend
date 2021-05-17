@@ -2,7 +2,7 @@ from dataclasses import asdict, dataclass
 
 from common.db.db_session import DBSession
 from dals.video_item_dal import VideoItemDal
-from db.models.video_item import VideoItem
+from db.models.videos.video_details import VideoItem
 
 
 @dataclass

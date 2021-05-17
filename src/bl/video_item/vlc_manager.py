@@ -3,8 +3,8 @@ from common.exceptions.content_topic_exceptions import VideoNotFound, UserNotFou
 from dals.user_dal import UserDAL
 from dals.video_item_dal import VideoItemDal
 from dals.vlc_dal import VlcDAL
-from db.models.user import User
-from db.models.video_item import VideoItem
+from db.models.users.user import User
+from db.models.videos.video_details import VideoItem
 from dtos.add_view_to_video_item_request import AddViewToVideoRequest
 from dtos.like_unlike_video_request import LikeUnlikeVideoRequest
 

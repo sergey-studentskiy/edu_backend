@@ -3,8 +3,8 @@ from sqlalchemy.orm import relationship
 
 from db.models import Base
 from db.models.create_updated_on_fields import CreateUpdateOnFields
-from db.models.user import User
-from db.models.video_item import VideoItem
+from db.models.users.user import User
+from db.models.videos.video_details import VideoItem
 
 
 class UserItem(Base, CreateUpdateOnFields):

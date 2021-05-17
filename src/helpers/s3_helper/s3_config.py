@@ -6,10 +6,10 @@ class S3Config:
         return 'touchprofilepic'
 
     def secret_access_key(self):
-        return '+l8gDIMC3FS27SWlHkodv3WZTPzvp6YJP9xSwVyk'
+        return ''
 
     def get_access_key_id(self):
-        return 'AKIAYGMQOQ5V4TT73WX6'
+        return ''
 
     def base_url(self):
         return 'https://touchprofilepic.s3.us-east-2.amazonaws.com/'

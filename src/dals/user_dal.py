@@ -1,9 +1,9 @@
 from typing import List
 
 from common.db.base_dal import BaseDAL
-from db.models.user import User
+from db.models.users.user import User
 from db.models.user_item import UserItem
-from db.models.video_item import VideoItem
+from db.models.videos.video_details import VideoItem
 
 
 class UserDAL(BaseDAL):

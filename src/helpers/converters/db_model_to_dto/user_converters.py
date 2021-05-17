@@ -1,4 +1,4 @@
-from db.models.user import User
+from db.models.users.user import User
 from dtos.login_response import LoginResponse
 
 

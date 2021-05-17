@@ -3,7 +3,7 @@ from typing import List, Optional
 from common.db.base_dal import BaseDAL
 from db.models.playlist import Playlist
 from db.models.playlist_item import PlaylistItem
-from db.models.video_item import VideoItem
+from db.models.videos.video_details import VideoItem
 
 
 class PlaylistDAL(BaseDAL):
